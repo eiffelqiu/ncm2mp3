@@ -2,7 +2,7 @@
 
 give [ncmdump](https://github.com/yoki123/ncmdump) an UI, convert ncm to mp3 file without command line.
 
-![图例](https://raw.github.com/eiffelqiu/yoki123/master/screen.jpg)
+![图例](https://github.com/eiffelqiu/ncm2mp3/blob/master/screen.jpg)
 
 ## To Use
 
