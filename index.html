@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>NCM 转换器</title>
+</head>
+
+<script>
+   const {
+      ipcRenderer
+   } = require('electron')
+
+   function clickButton() {
+      ipcRenderer.send('click-button', 'true')
+   }
+   ipcRenderer.send('openFile', () => {})
+   ipcRenderer.on('fileData', (event, data) => {
+      document.write(data)
+   })
+</script>
+
+
+<body>
+   <center><button onclick="clickButton()">打开 NCM 文件</button></center>
+</body>
+
+</html>
