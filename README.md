@@ -19,6 +19,10 @@ npm install
 npm start
 # Package Mac App
 npm run package-mac
+# Package Win App
+npm run package-win
+# Package Linux App
+npm run package-linux
 ```
 
 ## License
